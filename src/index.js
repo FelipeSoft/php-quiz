@@ -13,7 +13,7 @@ root.render(
     <main className="bg-black">
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route exact path='/' element={<Home />} />
           <Route path='/quiz' element={<App />} />
           <Route path='/thanks' element={<Thanks />} />
         </Routes>
