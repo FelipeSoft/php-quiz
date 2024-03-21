@@ -13,9 +13,9 @@ root.render(
     <main className="bg-black">
       <BrowserRouter>
         <Routes>
-          <Route path='/' Component={<Home />} />
-          <Route path='/quiz' Component={<App />} />
-          <Route path='/thanks' Component={<Thanks />} />
+          <Route path='/' element={<Home />} />
+          <Route path='/quiz' element={<App />} />
+          <Route path='/thanks' element={<Thanks />} />
         </Routes>
       </BrowserRouter>
     </main>
